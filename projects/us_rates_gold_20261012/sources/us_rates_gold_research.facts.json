@@ -1,0 +1,390 @@
+{
+  "schema": "ppt-master.fact-provenance.v1",
+  "topic": "미국 금리와 금 가격의 상관관계",
+  "facts": [
+    {
+      "fact_id": "F001",
+      "claim": "미국 10년물 국채 명목 수익률(FRED GS10) 연평균: 2007 4.63%, 2008 3.67%, 2009 3.26%, 2010 3.21%, 2011 2.79%, 2012 1.80%, 2013 2.35%, 2014 2.54%, 2015 2.13%, 2016 1.84%, 2017 2.33%, 2018 2.91%, 2019 2.14%, 2020 0.89%, 2021 1.44%, 2022 2.95%, 2023 3.96%, 2024 4.21%, 2025 4.26% (2차 출처의 FRED GS10 연평균 집계; 다른 집계는 2021 1.45%, 2025 4.29%)",
+      "source_title": "US 10-Year Treasury Yield: 50-Year History, Chart & Key Trends (InvestEdge 360, FRED GS10 기반)",
+      "source_url": "https://investedge360.com/blog/us-10-year-treasury-yield-50-year-history-chart",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F002",
+      "claim": "금 가격 연평균(USD/oz, London PM Fix 기반): 2007 695.39, 2008 871.96, 2009 972.35, 2010 1,224.53, 2011 1,571.52, 2012 1,668.98, 2013 1,411.23, 2014 1,266.40, 2015 1,160.60(검색 추출값, 재확인 필요), 2016 1,250.74, 2017 1,257.12, 2018 1,268.49, 2019 1,392.60, 2020 1,769.64",
+      "source_title": "Historical Gold Prices - 1833 to Present (National Mining Association; 1995–2022는 Kitco London PM Fix 기준)",
+      "source_url": "https://nma.org/resources/historical-gold-prices-1833-to-present/",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F003",
+      "claim": "LBMA 연평균 기준 금 가격은 2021년 약 1,799달러, 2022년 약 1,800달러(일중 범위 1,615~2,071달러), 2023년 약 1,941달러(전년 대비 +7.8%)였다",
+      "source_title": "Gold Price in 2022: $1,800 Average / Gold Price in 2023: $1,941 Average (MetalCharts)",
+      "source_url": "https://metalcharts.org/gold-price-history/2023",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F004",
+      "claim": "LBMA 금 가격 실제 연평균은 2024년 2,386.20달러, 2025년 3,431.54달러였다",
+      "source_title": "LBMA Forecast Survey 2025 – At a glance",
+      "source_url": "https://www.lbma.org.uk/forecast-survey-2025/at-a-glance",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F005",
+      "claim": "2025년 금 가격은 연평균 약 3,432달러로 전년 대비 43.8% 상승했고, 일중 범위 2,615~4,550달러, 연말 종가 4,323달러였다",
+      "source_title": "Gold Price in 2025: $3,432 Average (MetalCharts)",
+      "source_url": "https://metalcharts.org/gold-price-history/2025",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F006",
+      "claim": "2020년 7월 신규 10년물 TIPS 입찰 실질 수익률은 -0.93%로 역사상 최저였다",
+      "source_title": "New 10-Year TIPS Gets Real Yield Of -0.93%, Lowest In History (Tipswatch)",
+      "source_url": "https://tipswatch.com/2020/07/23/new-10-year-tips-gets-real-yield-of-0-93-lowest-in-history/",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F007",
+      "claim": "미국 10년물 실질 수익률은 2020~2021년 약 -1%까지 떨어졌다가 2023년 8월 2009년 이후 처음으로 2%를 넘었다",
+      "source_title": "US Treasury 10-year real yield exceeds 2% for first time since 2009 (Business Standard / Bloomberg)",
+      "source_url": "https://www.business-standard.com/world-news/us-treasury-10-year-real-yield-exceeds-2-for-first-time-since-2009-123082100731_1.html",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F008",
+      "claim": "2025년 1월 신규 10년물 TIPS 입찰 실질 수익률은 2.243%로 이 만기 기준 16년 만의 최고였다",
+      "source_title": "New 10-year TIPS gets real yield of 2.243%, highest for this term in 16 years (Tipswatch)",
+      "source_url": "https://tipswatch.com/2025/01/23/new-10-year-tips-gets-real-yield-of-2-243-highest-for-this-term-in-16-years/",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F009",
+      "claim": "2026년 9월 10년물 TIPS 재발행 입찰 실질 수익률은 2.653%로 약 18년 만의 최고였다",
+      "source_title": "10-year TIPS reopening gets real yield of 2.653%, highest in nearly 18 years (Tipswatch)",
+      "source_url": "https://tipswatch.com/2026/09/17/10-year-tips-reopening-gets-real-yield-of-2-653-highest-in-nearly-18-years/",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F010",
+      "claim": "연준 H.15 기준 2026년 10월 8일 미국 10년물 국채 명목 수익률은 5.22%, 10년물 물가연동국채(실질) 수익률은 2.87%였다",
+      "source_title": "Federal Reserve Board - H.15 - Selected Interest Rates (Daily) - October 09, 2026",
+      "source_url": "https://www.federalreserve.gov/releases/h15/",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F011",
+      "claim": "Erb & Harvey(The Golden Dilemma)는 1997년 1월~2012년 3월 금의 실질가격과 10년물 TIPS 실질 수익률의 상관계수를 -0.82로 제시했으나, 표본이 짧아 허구적 상관일 수 있다고 경고했다",
+      "source_title": "The Golden Dilemma (Claude B. Erb, Campbell R. Harvey, NBER Working Paper 18706, 2013)",
+      "source_url": "https://www.nber.org/papers/w18706",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F012",
+      "claim": "Jermann(NBER)은 더 긴 표본에서도 금 가격과 실질금리의 음(-)의 관계가 유지되지만 강하지 않으며, 상관관계는 주로 저금리 구간이 주도한다고 분석했다",
+      "source_title": "Gold's Value as an Investment (Urban Jermann, NBER Working Paper 31386)",
+      "source_url": "https://www.nber.org/system/files/working_papers/w31386/w31386.pdf",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F013",
+      "claim": "시카고 연은은 금을 배당이 없는 장기 듀레이션 내구자산으로 보고 장기 실질금리와 강한 역관계를 예상하지만, 이 음의 동조는 2001년 이전 데이터에서는 나타나지 않는다고 밝혔다",
+      "source_title": "What Drives Gold Prices? (Chicago Fed Letter No. 464, 2021)",
+      "source_url": "https://www.chicagofed.org/publications/chicago-fed-letter/2021/464",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F014",
+      "claim": "2022년 10년물 TIPS 수익률이 약 250bp 오르고 달러가 8% 넘게 강세였음에도 금 가격은 소폭 상승했으며, 소매 투자와 중앙은행의 이례적 순매수가 이를 지지했다",
+      "source_title": "Gold Market Commentary – December 2022 (World Gold Council)",
+      "source_url": "https://www.gold.org/goldhub/research/gold-market-commentary-december-2022",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F015",
+      "claim": "세계금협회(WGC)는 금이 약 10년간 실질금리와 역상관을 보였으나 2022년 이후 위험회피 수요와 중앙은행 매입이 이를 상쇄해 실질금리 상승기에도 금값이 대체로 올랐다고 분석했다",
+      "source_title": "You asked, we answered: Are fiscal concerns driving gold? (World Gold Council, 2025-06)",
+      "source_url": "https://www.gold.org/goldhub/gold-focus/2025/06/you-asked-we-answered-are-fiscal-concerns-driving-gold",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F016",
+      "claim": "WGC는 금 가격과 TIPS 수익률의 탈동조화가 잘 알려져 있으며 그 원인으로 중앙은행, 신흥국 투자자, 기간 프리미엄을 꼽았고, 선물 투자자의 실질금리 민감도는 다소 낮아졌지만 여전히 통계적으로 매우 유의하다고 밝혔다",
+      "source_title": "Gold Market Commentary: Positioning revisited (World Gold Council, July 2025)",
+      "source_url": "https://www.gold.org/goldhub/research/gold-market-commentary-july-2025",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F017",
+      "claim": "WGC 분석에 따르면 채권 불확실성이 높을 때 금의 금리 민감도는 평소의 절반 이하로 줄어든다",
+      "source_title": "Gold Market Commentary: January jitters (World Gold Council, December 2024)",
+      "source_url": "https://www.gold.org/goldhub/research/gold-market-commentary-december-2024",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F018",
+      "claim": "WGC 2023년 연간 집계 기준 중앙은행 금 순매입은 2022년 1,081.9t(사상 최대), 2023년 1,037.4t(사상 2위)였다",
+      "source_title": "Gold Demand Trends Full Year 2023 – Central Banks (World Gold Council)",
+      "source_url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2023/central-banks",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F019",
+      "claim": "WGC 2025년 연간 집계 기준 중앙은행 금 순매입은 2024년 1,092.4t, 2025년 863.3t(-21%)로, 2022~2024년 3년 연속 1,000t을 넘은 뒤 줄었지만 2010~2021년 연평균 473t을 크게 웃돌았다",
+      "source_title": "Gold Demand Trends: Q4 and Full Year 2025 – Central Banks (World Gold Council)",
+      "source_url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2025/central-banks",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F020",
+      "claim": "2023년 최대 매입 중앙은행은 중국인민은행(연간 +225t)이었고, 폴란드 국립은행이 4~11월 130t으로 2위였다",
+      "source_title": "Gold Demand Trends Full Year 2023 – Central Banks (World Gold Council)",
+      "source_url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2023/central-banks",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F021",
+      "claim": "2025년 주요 매입 중앙은행은 폴란드(102t), 카자흐스탄(57t), 브라질(43t), 아제르바이잔 SOFAZ(38t), 튀르키예(27t), 중국(27t), 체코(20t)였다",
+      "source_title": "Gold Demand Trends: Q4 and Full Year 2025 – Central Banks (World Gold Council)",
+      "source_url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2025/central-banks",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F022",
+      "claim": "2025년 전 세계 금 총수요(장외 포함)는 처음으로 5,000t을 넘었고 금액 기준 5,550억 달러(+45%)였다",
+      "source_title": "Gold Demand Trends: Q4 and Full Year 2025 (World Gold Council)",
+      "source_url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2025",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F023",
+      "claim": "WGC 2025년 중앙은행 설문에서 응답자의 95%가 향후 12개월 세계 중앙은행 금 보유 증가를, 사상 최고 43%가 자국 보유 증가를 예상했고, 73%는 5년 뒤 외환보유액 내 달러 비중 축소를 예상했다",
+      "source_title": "Central Bank Gold Reserves Survey 2025 (World Gold Council)",
+      "source_url": "https://www.gold.org/goldhub/research/central-bank-gold-reserves-survey-2025",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F024",
+      "claim": "WGC 2026년 중앙은행 설문(2026-06-16 발표)에서 89%가 세계 중앙은행 금 보유 증가를, 사상 최고 45%가 자국 보유 확대를 예상했으며, 사상 최고 90%가 위기 시 금의 성과를 보유 이유로 꼽았다",
+      "source_title": "Central Bank Gold Reserves Survey 2026 (World Gold Council)",
+      "source_url": "https://www.gold.org/goldhub/research/central-bank-gold-reserves-survey-2026",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F025",
+      "claim": "ECB는 2025년 6월 보고서에서 중앙은행들이 기록적 속도로 금을 계속 축적했으며, 세계 외환보유액 내 달러 비중이 2.0%p 하락한 57.8%라고 밝혔다",
+      "source_title": "The international role of the euro, June 2025 (European Central Bank)",
+      "source_url": "https://www.ecb.europa.eu/press/other-publications/ire/html/ecb.ire202506.en.html",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F026",
+      "claim": "연준은 2024년 9월 18일 기준금리를 0.5%p 인하해 4.75~5.00%로 낮추며 인하 사이클을 시작했다",
+      "source_title": "Federal Reserve issues FOMC statement (September 18, 2024)",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F027",
+      "claim": "연준은 2025년 10월 기준금리를 3.75~4.00%로, 2025년 12월 다시 0.25%p 내린 3.50~3.75%로 인하했다(12월 결정에 3명 반대)",
+      "source_title": "FOMC Minutes, December 9-10, 2025 (Federal Reserve)",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20251210.htm",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F028",
+      "claim": "연준은 2026년 7월 기준금리를 3.50~3.75%로 동결했으며, 위원 3명(Hammack, Kashkari, Logan)이 0.25%p 인상을 주장하며 반대했다",
+      "source_title": "Federal Reserve issues FOMC statement (July 29, 2026)",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F029",
+      "claim": "연준은 2026년 9월 16일 기준금리를 0.25%p 인상해 3.75~4.00%로 올렸고(12대 0), 9월 점도표의 2026년 말 기준금리 중간값은 4.1%, 2026년 PCE 물가 전망 중간값은 3.7%였다",
+      "source_title": "Federal Reserve issues FOMC statement (September 16, 2026) / FOMC Projections materials",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F030",
+      "claim": "금 가격 사상 최고치는 2026년 1월 28일 장중 현물 약 5,590달러/oz이며, LBMA PM 기준가 최고치는 약 5,405달러였다(데이터 공급처별로 수치·일자 상이)",
+      "source_title": "Gold All-Time High: $5,590 Record & Every Peak Since 1980 (MetalCharts)",
+      "source_url": "https://metalcharts.org/gold-all-time-high",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F031",
+      "claim": "2026년 10월 5일 금 가격은 약 4,143달러로 사상 최고치 대비 25.9% 낮았다",
+      "source_title": "Gold All-Time High: $5,590 Record & Every Peak Since 1980 (MetalCharts)",
+      "source_url": "https://metalcharts.org/gold-all-time-high",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F032",
+      "claim": "WGC 2026 하반기 전망(2026-07-01)에 따르면 금은 1월 장중 5,500달러를 넘는 사상 최고치를 기록한 뒤 6월 말 4,000달러 부근까지 하락해 연초 대비 약 7% 하락했고, 미국 10년물 금리 25bp 하락은 금 가격 약 1.75% 상승과 연관된다",
+      "source_title": "Gold Mid-Year Outlook 2026: Point break (World Gold Council)",
+      "source_url": "https://www.gold.org/goldhub/research/gold-mid-year-outlook-2026",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F033",
+      "claim": "2026년 2분기 중앙은행 금 매입은 289t, 상반기 총수요는 2,522t(+2%)였고, 2분기 금 ETF는 물가·금리 기대 상승과 달러 강세 속에 45t 순유출됐다",
+      "source_title": "Gold Demand Trends: Q2 2026 (World Gold Council)",
+      "source_url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F034",
+      "claim": "WGC는 2026년 2분기 북미 금 ETF 자금 흐름이 미국 금리와의 음(-)의 관계를 회복했다고 평가하고, 중앙은행은 계속 주요 매수자로 남을 것으로 전망했다",
+      "source_title": "Gold Demand Trends: Q2 2026 – Outlook (World Gold Council)",
+      "source_url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026/outlook",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F035",
+      "claim": "연준 2026년 9월 경제전망(SEP) 기준금리 중간값은 2026년 말 4.1%, 2027년 말 4.1%, 2028년 말 3.9%, 2029년 말 3.6%, 장기 3.2%로, 6월 전망(2026년 3.8%, 2027년 3.6%, 2028년 3.4%, 장기 3.1%)보다 전 구간 상향됐다",
+      "source_title": "Summary of Economic Projections, September 16, 2026 (Federal Reserve)",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F036",
+      "claim": "9월 비농업 고용이 2만9천 명 증가(예상 8만 명 이상)에 그친 뒤, 2026년 10월 2일 CME FedWatch 기준 10월 FOMC 0.25%p 인상 확률은 17%로 낮아졌고 12월 인상 확률은 75%를 넘었다",
+      "source_title": "Traders now see little chance of a Fed rate hike in October after weak jobs report (CNBC, 2026-10-02)",
+      "source_url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F037",
+      "claim": "2026년 10월 9일 CME FedWatch 기준 10월 28일 FOMC 인상 확률은 18%, 12월 인상 확률은 82%였다",
+      "source_title": "Gold rises on softer dollar, easing yields; Fed outlook in focus (CNBC, 2026-10-09)",
+      "source_url": "https://cnbc.com/2026/10/09/gold-rises-on-softer-dollar-easing-yields-fed-outlook-in-focus.html",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F038",
+      "claim": "WSJ 2026년 10월 이코노미스트 설문(71명, 10월 2~7일 조사)의 미국 10년물 국채 수익률 전망은 2026년 12월 5.10%, 2027년 12월 4.78%로, 7월 설문(4.3%, 4.26%)보다 높아졌다(2차 요약 출처)",
+      "source_title": "The October 2026 Wall Street Journal Economic Forecast Survey (EconomicGreenfield 요약)",
+      "source_url": "https://www.economicgreenfield.com/2026/10/11/the-october-2026-wall-street-journal-economic-forecast-survey/",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F039",
+      "claim": "스탠다드은행의 스티븐 배로는 2026년 9월 미국 10년물 수익률 전망을 2026년 말 5.2%, 2027년 1분기 5.3%로 상향했다",
+      "source_title": "Barrow Raises 10-Year Treasury Yield Forecast, Says Selloff Will Continue (Bloomberg, 2026-09-14)",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-14/strategist-who-foresaw-10-year-treasuries-at-5-says-selloff-isn-t-done-yet",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F040",
+      "claim": "골드만삭스는 2026년 6월 19일 연준이 2026년에 더 이상 금리를 내리지 않을 것으로 보고 2026년 말 금 가격 목표를 온스당 5,400달러에서 4,900달러로 500달러 낮췄다",
+      "source_title": "Goldman Sachs Lops $500 Off Gold Target on No Fed Cuts This Year (Bloomberg, 2026-06-19)",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-19/goldman-sachs-lops-500-off-gold-target-on-no-fed-cuts-this-year",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F041",
+      "claim": "골드만삭스는 2026년 9월 23일 보도에서 2026년 말 금 목표 4,900달러를 유지했다. 전제는 중앙은행 월평균 매입 2026년 50t, 2027년 40t과 ETF 수요 회복이며, 연준이 금리를 인상하면 2026년 말 4,440달러로 낮아질 수 있다고 제시했다",
+      "source_title": "Gold price will hit $4,900/oz in 2026 on strong sovereign demand as China buys 75% more than reported in July (Kitco, 2026-09-23)",
+      "source_url": "https://www.kitco.com/news/article/2026-09-23/gold-price-will-hit-4900oz-2026-strong-sovereign-demand-china-buys-75-more",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F042",
+      "claim": "J.P.모건은 2026년 7월 3일 단기 수요 약화를 이유로 금 가격 전망을 2026년 3분기 평균 4,300달러, 4분기 평균 4,500달러로 낮추고, 2027년에는 반등할 것으로 봤다(2027년 수치 미제시)",
+      "source_title": "JP Morgan says weaker demand may cap gold gains near-term, sees rebound in late 2026 and 2027 (Kitco / Reuters, 2026-07-03)",
+      "source_url": "https://www.kitco.com/news/off-the-wire/2026-07-03/jp-morgan-says-weaker-demand-may-cap-gold-gains-near-term-sees-rebound",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F043",
+      "claim": "J.P.모건 리서치 금 가격 전망 페이지는 2026년 4분기 평균 6,000달러, 2027년 말 6,300달러를 제시하지만, 게시일이 확인되지 않아 2026년 조정 이전 전망일 수 있다",
+      "source_title": "Gold Price Predictions for 2026 and 2027 (J.P. Morgan Global Research)",
+      "source_url": "https://www.jpmorgan.com/insights/global-research/commodities/gold-prices",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F044",
+      "claim": "UBS 글로벌자산운용 CIO는 2026년 8월 6일 금 가격이 2027년 상반기 온스당 5,000달러를 향해 오를 것으로 전망했으며, 연준이 2026년 동결 후 2027년 완화를 재개할 것으로 가정했다",
+      "source_title": "Daily: Gold's rally has support (UBS Chief Investment Office, 2026-08-06)",
+      "source_url": "https://www.ubs.com/global/en/wealthmanagement/insights/chief-investment-office/house-view/daily/2026/latest-06082026.html",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F045",
+      "claim": "뱅크오브아메리카는 2026년 7월 2026년 금 평균 가격 전망을 14% 낮춘 4,360달러로 하향했지만, 2027년까지 6,000달러에 도달할 경로는 여전히 있다고 봤다",
+      "source_title": "Bank of America sees value in gold miners even after cutting 2026 gold price forecast (Kitco, 2026-07-13)",
+      "source_url": "https://www.kitco.com/news/article/2026-07-13/bank-america-sees-value-gold-miners-even-after-cutting-2026-gold-price",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F046",
+      "claim": "뱅크오브아메리카는 2026년 10월 1일 에너지 가격 고공행진을 이유로 2026년 4분기 금 가격이 3,750달러로 떨어질 것으로 봤다. 2027년 강세 전망은 유지하되, 유가 150달러 시나리오(기본 시나리오 아님)에서는 2027년 평균 3,500달러로 제시했다",
+      "source_title": "Risks rising that gold prices fall below $4,000 in Q4 - Bank of America (Kitco, 2026-10-01)",
+      "source_url": "https://www.kitco.com/news/article/2026-10-01/risks-rising-gold-prices-fall-below-4000-q4-bank-america",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F047",
+      "claim": "씨티는 2026년 6월 9일 0~3개월 금 목표를 4,300달러에서 4,000달러로 낮추고 6~12개월 목표 4,500달러는 유지했다. 호르무즈 해협 봉쇄가 여름 말까지 이어지면 3,500달러까지 하락할 수 있다고 경고했다",
+      "source_title": "Citi cuts near-term gold price target from $4,300 to $4,000, warns of limited upside (Kitco, 2026-06-09)",
+      "source_url": "https://www.kitco.com/news/article/2026-06-09/citi-cuts-near-term-gold-price-target-4300-4000-warns-limited-upside",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    },
+    {
+      "fact_id": "F048",
+      "claim": "WGC 2026 하반기 전망은 여건이 유지될 경우 4,100달러 부근을 중심으로 ±5% 범위를 기본 시나리오로 제시했다. 상방은 4,500달러, 강한 신호가 있을 때만 5,000달러로 봤고, 10~15% 하락 시에는 저가 매수 수요가 유입될 것으로 봤다(예측이 아닌 가상 시나리오)",
+      "source_title": "Gold Mid-Year Outlook 2026: Point break (World Gold Council)",
+      "source_url": "https://www.gold.org/goldhub/research/gold-mid-year-outlook-2026",
+      "classification": "external",
+      "retrieved_at": "2026-10-12"
+    }
+  ]
+}

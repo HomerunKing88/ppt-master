@@ -1,0 +1,289 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="&quot;Malgun Gothic&quot;, Arial, sans-serif">
+  <rect id="page-bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+
+  <g id="header" data-pptx-bounds="40 30 1200 116">
+    <text x="40" y="50" font-size="13" font-weight="bold" fill="#B8862B">미국 금리와 금 가격 · 기준일 2026.10.12</text>
+    <text x="40" y="90" font-size="30" font-weight="bold" fill="#1F2A44">금 가격은 실질금리와 반대로 움직여 왔으나 2022년 이후 연결이 약해짐</text>
+    <text x="40" y="124" font-size="20" fill="#222222">2022~2024년 중앙은행이 해마다 <tspan font-weight="bold" fill="#B8862B">1,000t</tspan> 넘게 금을 사들이며 금리 상승기에도 금 가격이 오름</text>
+    <line x1="40" y1="142" x2="1240" y2="142" stroke="#1F2A44" stroke-width="2" />
+  </g>
+
+  <g id="rates-gold-dual" data-pptx-bounds="40 156 724 340" data-pptx-replace-with="chart" data-pptx-fallback-sha256="1abff37f85e3dde25d895d94704512ef6d0b35512135c1e97275076f88bb54bf">
+    <metadata type="application/json">
+      {
+        "name": "rates-gold-dual",
+        "x": 40, "y": 156, "width": 724, "height": 340,
+        "type": "combo",
+        "categories": ["07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"],
+        "plots": [
+          {"type": "line", "line_style": "line", "axis": "primary",
+           "series": [{"name": "금 연평균 가격 (달러/온스, 왼쪽 축)", "values": [695.39, 871.96, 972.35, 1224.53, 1571.52, 1668.98, 1411.23, 1266.4, 1160.06, 1250.74, 1257.12, 1268.49, 1392.6, 1769.64, 1799, 1800, 1941, 2386.2, 3431.54], "line_width": 3}]},
+          {"type": "line", "line_style": "line", "axis": "secondary",
+           "series": [{"name": "미국 10년물 국채 명목금리 연평균 (%, 오른쪽 축)", "values": [4.63, 3.67, 3.26, 3.21, 2.79, 1.8, 2.35, 2.54, 2.13, 1.84, 2.33, 2.91, 2.14, 0.89, 1.44, 2.95, 3.96, 4.21, 4.26], "line_width": 2.5}]}
+        ],
+        "axes": {
+          "category": {"kind": "text"},
+          "value": {"minimum": 0, "maximum": 3600, "major_unit": 600, "number_format": "#,##0", "major_gridlines": true, "cross_between": "between"},
+          "secondary_value": {"minimum": 0, "maximum": 6, "major_unit": 1, "number_format": "0\"%\"", "cross_between": "between"}
+        },
+        "plot_area": {"x": 100, "y": 200, "width": 600, "height": 270},
+        "show_legend": true,
+        "legend_position": "top",
+        "style": {"colors": ["#B8862B", "#5B7FA6"], "text_color": "#6B6B6B", "axis_color": "#6B6B6B", "grid_color": "#D9D6CF"},
+        "notes": ["탈동조화", "2022~2025", "3,432달러", "0.89%", "(연도)"]
+      }
+    </metadata>
+    <g id="rates-gold-dual-legend" font-size="13" fill="#222222">
+      <line x1="100" y1="172" x2="124" y2="172" stroke="#B8862B" stroke-width="3" />
+      <text x="130" y="177">금 연평균 가격 (달러/온스, 왼쪽 축)</text>
+      <line x1="400" y1="172" x2="424" y2="172" stroke="#5B7FA6" stroke-width="2.5" />
+      <text x="430" y="177">미국 10년물 국채 명목금리 연평균 (%, 오른쪽 축)</text>
+    </g>
+    <g id="rates-gold-dual-chartArea">
+      <rect x="573.5" y="200" width="126.5" height="270" fill="#F5F3EE" />
+      <g id="rates-gold-dual-grid" stroke="#D9D6CF" stroke-width="1">
+        <line x1="100" y1="200" x2="700" y2="200" />
+        <line x1="100" y1="245" x2="700" y2="245" />
+        <line x1="100" y1="290" x2="700" y2="290" />
+        <line x1="100" y1="335" x2="700" y2="335" />
+        <line x1="100" y1="380" x2="700" y2="380" />
+        <line x1="100" y1="425" x2="700" y2="425" />
+      </g>
+      <line id="rates-gold-dual-axis" x1="100" y1="470" x2="700" y2="470" stroke="#6B6B6B" stroke-width="1" />
+      
+      <polyline points="116.0,417.8 147.6,404.6 179.1,397.1 210.7,378.2 242.2,352.1 273.8,344.8 305.3,364.2 336.9,375.0 368.4,383.0 400.0,376.2 431.6,375.7 463.1,374.9 494.7,365.6 526.2,337.3 557.8,335.1 589.3,335.0 620.9,324.4 652.4,291.0 684.0,212.6" fill="none" stroke="#B8862B" stroke-width="3" />
+      <polyline points="116.0,261.6 147.6,304.9 179.1,323.3 210.7,325.6 242.2,344.4 273.8,389.0 305.3,364.2 336.9,355.7 368.4,374.1 400.0,387.2 431.6,365.1 463.1,339.0 494.7,373.7 526.2,429.9 557.8,405.2 589.3,337.2 620.9,291.8 652.4,280.6 684.0,278.3" fill="none" stroke="#5B7FA6" stroke-width="2.5" />
+    </g>
+    <g id="rates-gold-dual-labels" font-size="13" fill="#6B6B6B">
+      <g text-anchor="end">
+        <text x="92" y="474">0</text>
+        <text x="92" y="429">600</text>
+        <text x="92" y="384">1,200</text>
+        <text x="92" y="339">1,800</text>
+        <text x="92" y="294">2,400</text>
+        <text x="92" y="249">3,000</text>
+        <text x="92" y="204">3,600</text>
+      </g>
+      <text x="708" y="474">0%</text>
+      <text x="708" y="429">1%</text>
+      <text x="708" y="384">2%</text>
+      <text x="708" y="339">3%</text>
+      <text x="708" y="294">4%</text>
+      <text x="708" y="249">5%</text>
+      <text x="708" y="204">6%</text>
+      <g text-anchor="middle">
+        <text x="116.0" y="488">07</text>
+        <text x="147.6" y="488">08</text>
+        <text x="179.1" y="488">09</text>
+        <text x="210.7" y="488">10</text>
+        <text x="242.2" y="488">11</text>
+        <text x="273.8" y="488">12</text>
+        <text x="305.3" y="488">13</text>
+        <text x="336.9" y="488">14</text>
+        <text x="368.4" y="488">15</text>
+        <text x="400.0" y="488">16</text>
+        <text x="431.6" y="488">17</text>
+        <text x="463.1" y="488">18</text>
+        <text x="494.7" y="488">19</text>
+        <text x="526.2" y="488">20</text>
+        <text x="557.8" y="488">21</text>
+        <text x="589.3" y="488">22</text>
+        <text x="620.9" y="488">23</text>
+        <text x="652.4" y="488">24</text>
+        <text x="684.0" y="488">25</text>
+      </g>
+      <text x="740" y="488" text-anchor="end">(연도)</text>
+      <g text-anchor="middle" font-weight="bold" fill="#1F2A44">
+        <text x="636.8" y="446">탈동조화</text>
+        <text x="636.8" y="462" font-weight="normal" fill="#6B6B6B">2022~2025</text>
+      </g>
+      <text x="668" y="206" text-anchor="end" font-weight="bold" fill="#B8862B">3,432달러</text>
+      <text x="526.2" y="448" text-anchor="middle" font-weight="bold" fill="#5B7FA6">0.89%</text>
+    </g>
+  </g>
+
+  <g id="real-rate-note" data-pptx-bounds="40 500 724 24">
+    <text x="100" y="516" font-size="13" fill="#6B6B6B">실질금리(10년물 TIPS) 확인값: 2020.7 <tspan font-weight="bold" fill="#1F2A44">-0.93%</tspan>(사상 최저) → 2023.8 2% 돌파 → 2026.10.8 <tspan font-weight="bold" fill="#1F2A44">2.87%</tspan></text>
+  </g>
+
+  <g id="principle" data-pptx-bounds="792 156 448 116">
+    
+  <g transform="translate(792, 161)" fill="none" stroke="#1F2A44" stroke-width="2">
+    <path d="M7 20l10 0" />
+    <path d="M6 6l6 -1l6 1" />
+    <path d="M12 3l0 17" />
+    <path d="M9 12l-3 -6l-3 6a3 3 0 0 0 6 0" />
+    <path d="M21 12l-3 -6l-3 6a3 3 0 0 0 6 0" />
+  </g>
+    <text x="824" y="180" font-size="18" font-weight="bold" fill="#1F2A44">원리: 실질금리가 오르면 금 보유 비용이 커짐</text>
+    <text x="792" y="236" font-size="40" font-weight="bold" fill="#B8862B">-0.82</text>
+    <text fill="#222222" font-size="16" x="924" y="214">금 실질가격과 10년물 TIPS 수익률의</text><text fill="#222222" font-size="16" x="924" y="236">상관계수 (1997.1~2012.3)</text><text x="792" y="264" font-size="16" fill="#222222">10년물 금리 25bp 하락 ≈ 금 가격 <tspan font-weight="bold" fill="#1F2A44">+1.75%</tspan> (WGC)</text>
+  </g>
+
+  <g id="decoupling" data-pptx-bounds="792 278 448 114">
+    <line x1="792" y1="281" x2="1240" y2="281" stroke="#D9D6CF" stroke-width="1" />
+    
+  <g transform="translate(792, 294)" fill="none" stroke="#1F2A44" stroke-width="2">
+    <path d="M3 21l18 0" />
+    <path d="M3 10l18 0" />
+    <path d="M5 6l7 -3l7 3" />
+    <path d="M4 10l0 11" />
+    <path d="M20 10l0 11" />
+    <path d="M8 14l0 3" />
+    <path d="M12 14l0 3" />
+    <path d="M16 14l0 3" />
+  </g>
+    <text x="824" y="313" font-size="18" font-weight="bold" fill="#1F2A44">탈동조화: 중앙은행 매입이 금리 영향을 상쇄</text>
+    <text fill="#222222" font-size="16" x="792" y="340">2022년 TIPS 수익률 약 250bp 상승에도 금은 소폭 상승함</text><text fill="#222222" font-size="16" x="792" y="362"><tspan>2022~2024년 매입량은 2010~21년 평균(473t)의 <tspan font-weight="bold" fill="#B8862B">2배 이상</tspan></tspan></text><text x="792" y="388" font-size="13" font-weight="bold" fill="#6B6B6B">중앙은행 금 순매입 (t, WGC)</text>
+  </g>
+
+  <g id="cb-purchases" data-pptx-bounds="792 394 448 128" data-pptx-replace-with="chart" data-pptx-fallback-sha256="13e0b4df0299926e670d590ba10764bd0ad8a867f8b1b784741e0b5c21741522">
+    <metadata type="application/json">
+      {
+        "name": "cb-purchases",
+        "x": 792, "y": 394, "width": 448, "height": 128,
+        "type": "column",
+        "grouping": "clustered",
+        "categories": ["2010~21 평균", "2022", "2023", "2024", "2025"],
+        "series": [{"name": "중앙은행 금 순매입 (t)", "values": [473, 1081.9, 1037.4, 1092.4, 863.3], "point_colors": ["#8A9BB5", "#B8862B", "#B8862B", "#B8862B", "#B8862B"]}],
+        "gap_width": 54,
+        "data_labels": {"show_value": true, "position": "outside_end", "number_format": "#,##0", "font_size": 13, "color": "#222222"},
+        "axes": {
+          "category": {"kind": "text"},
+          "value": {"visible": false, "minimum": 0, "maximum": 1200, "major_gridlines": false}
+        },
+        "plot_area": {"x": 800, "y": 406, "width": 432, "height": 90},
+        "style": {"colors": ["#B8862B"], "text_color": "#222222", "axis_color": "#6B6B6B"}
+      }
+    </metadata>
+    <g id="cb-purchases-chartArea">
+      <line id="cb-purchases-axis" x1="800" y1="496" x2="1232" y2="496" stroke="#6B6B6B" stroke-width="1" />
+      
+      <rect x="815.2" y="460.5" width="56" height="35.5" fill="#8A9BB5" />
+      <rect x="901.6" y="414.9" width="56" height="81.1" fill="#B8862B" />
+      <rect x="988.0" y="418.2" width="56" height="77.8" fill="#B8862B" />
+      <rect x="1074.4" y="414.1" width="56" height="81.9" fill="#B8862B" />
+      <rect x="1160.8" y="431.3" width="56" height="64.7" fill="#B8862B" />
+    </g>
+    <g id="cb-purchases-labels" font-size="13" text-anchor="middle" fill="#222222">
+      <text x="843.2" y="454.5">473</text>
+      <text x="929.6" y="408.9" font-weight="bold">1,082</text>
+      <text x="1016.0" y="412.2" font-weight="bold">1,037</text>
+      <text x="1102.4" y="408.1" font-weight="bold">1,092</text>
+      <text x="1188.8" y="425.3" font-weight="bold">863</text>
+      <g fill="#6B6B6B">
+        <text x="843.2" y="514">2010~21 평균</text>
+        <text x="929.6" y="514">2022</text>
+        <text x="1016.0" y="514">2023</text>
+        <text x="1102.4" y="514">2024</text>
+        <text x="1188.8" y="514">2025</text>
+      </g>
+    </g>
+  </g>
+
+  <g id="rate-outlook" data-pptx-bounds="40 536 580 130">
+    <line x1="40" y1="540" x2="620" y2="540" stroke="#1F2A44" stroke-width="1.5" />
+    
+  <g transform="translate(40, 550)" fill="none" stroke="#5B7FA6" stroke-width="2">
+    <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+    <path d="M18 14v4h4" />
+    <path d="M14 18a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+    <path d="M15 3v4" />
+    <path d="M7 3v4" />
+    <path d="M3 11h16" />
+  </g>
+    <text x="72" y="569" font-size="18" font-weight="bold" fill="#1F2A44">금리 전망: 연준은 인상으로 돌아섬</text>
+    <text fill="#222222" font-size="16" x="40" y="594">기준금리 <tspan font-weight="bold" fill="#1F2A44">3.75~4.00%</tspan> (2026.9.16 0.25%p 인상)</text><text fill="#222222" font-size="16" x="40" y="616">앞서 2024.9~2025.12 1.75%p 인하, 2026.7 동결</text><text fill="#222222" font-size="16" x="40" y="638">연준 9월 점도표: 2026말 4.1% · 2027말 4.1% · 장기 3.2% (6월보다 상향)</text><text fill="#222222" font-size="16" x="40" y="660"><tspan>12월 인상 확률 <tspan font-weight="bold" fill="#1F2A44">82%</tspan>(CME, 10.9) · 10년물 2026.12 전망 5.10%(WSJ)</tspan></text></g>
+
+  <g id="gold-outlook-head" data-pptx-bounds="652 536 588 42">
+    <line x1="652" y1="540" x2="1240" y2="540" stroke="#1F2A44" stroke-width="1.5" />
+    
+  <g transform="translate(652, 550)" fill="none" stroke="#B8862B" stroke-width="2">
+    <path d="M3 17l6 -6l4 4l8 -8" />
+    <path d="M14 7l7 0l0 7" />
+  </g>
+    <text x="684" y="569" font-size="18" font-weight="bold" fill="#1F2A44">금 가격 전망: 현재 4,143달러, 고점 대비 <tspan fill="#B8862B">-26%</tspan></text>
+  </g>
+
+  <g id="gold-outlook" data-pptx-bounds="652 580 588 84" data-pptx-replace-with="table" data-pptx-fallback-sha256="21c72df3578463f1d06edc3bab4e7489d3fcf05f51e04998875d0017e544f5b4">
+    <metadata type="application/json">
+      {
+        "schema": "ppt-master.semantic-table.v2",
+        "name": "gold-outlook",
+        "x": 652, "y": 580, "width": 588, "height": 82,
+        "column_widths": [72, 86, 86, 86, 86, 86, 86],
+        "row_heights": [24, 30, 28],
+        "style": {"font_family": "Malgun Gothic", "font_size": 13, "header_fill": "#F5F3EE", "header_text": "#1F2A44", "band_row": false, "body_text": "#222222", "padding": 2, "valign": "middle"},
+        "defaults": {"cell": {"align": "ctr", "borders": {"left": {"style": "none"}, "right": {"style": "none"}, "top": {"style": "none"}, "bottom": {"style": "solid", "color": "#D9D6CF", "width": 1}}}},
+        "columns": [
+          {"text": "", "align": "l"},
+          {"text": "골드만삭스", "bold": true},
+          {"text": "J.P.모건", "bold": true},
+          {"text": "BofA", "bold": true},
+          {"text": "씨티", "bold": true},
+          {"text": "UBS", "bold": true},
+          {"text": "WGC", "bold": true}
+        ],
+        "rows": [
+          [
+            {"text": "전망(달러)", "align": "l", "color": "#6B6B6B"},
+            {"text": "4,900", "bold": true, "font_size": 16, "color": "#1F2A44"},
+            {"text": "4,500", "bold": true, "font_size": 16, "color": "#1F2A44"},
+            {"text": "3,750", "bold": true, "font_size": 16, "color": "#1F2A44"},
+            {"text": "4,500", "bold": true, "font_size": 16, "color": "#1F2A44"},
+            {"text": "5,000", "bold": true, "font_size": 16, "color": "#1F2A44"},
+            {"text": "4,100±5%", "bold": true, "font_size": 16, "color": "#1F2A44"}
+          ],
+          [
+            {"text": "시점", "align": "l", "color": "#6B6B6B"},
+            "2026년 말",
+            "4분기 평균",
+            "4분기",
+            "6~12개월",
+            "2027 상반기",
+            "하반기 기본"
+          ]
+        ]
+      }
+    </metadata>
+    <rect x="652" y="580" width="588" height="24" fill="#F5F3EE" />
+    <g stroke="#D9D6CF" stroke-width="1">
+      <line x1="652" y1="604" x2="1240" y2="604" />
+      <line x1="652" y1="634" x2="1240" y2="634" />
+      <line x1="652" y1="662" x2="1240" y2="662" />
+    </g>
+    <g font-size="13" font-weight="bold" fill="#1F2A44" text-anchor="middle">
+      <text x="767" y="597">골드만삭스</text>
+      <text x="853" y="597">J.P.모건</text>
+      <text x="939" y="597">BofA</text>
+      <text x="1025" y="597">씨티</text>
+      <text x="1111" y="597">UBS</text>
+      <text x="1197" y="597">WGC</text>
+    </g>
+    <g font-size="13" fill="#6B6B6B">
+      <text x="656" y="624">전망(달러)</text>
+      <text x="656" y="653">시점</text>
+    </g>
+    <g font-size="16" font-weight="bold" fill="#1F2A44" text-anchor="middle">
+      <text x="767" y="625">4,900</text>
+      <text x="853" y="625">4,500</text>
+      <text x="939" y="625">3,750</text>
+      <text x="1025" y="625">4,500</text>
+      <text x="1111" y="625">5,000</text>
+      <text x="1197" y="625">4,100±5%</text>
+    </g>
+    <g font-size="13" fill="#222222" text-anchor="middle">
+      <text x="767" y="653">2026년 말</text>
+      <text x="853" y="653">4분기 평균</text>
+      <text x="939" y="653">4분기</text>
+      <text x="1025" y="653">6~12개월</text>
+      <text x="1111" y="653">2027 상반기</text>
+      <text x="1197" y="653">하반기 기본</text>
+    </g>
+  </g>
+
+  <g id="footer" data-pptx-bounds="40 672 1200 36" data-pptx-role="footer" font-size="13" fill="#6B6B6B">
+    <text x="40" y="686">출처: FRED(GS10), LBMA·NMA(금 연평균), World Gold Council, Federal Reserve(H.15·SEP), CME FedWatch, Erb &amp; Harvey, WSJ, Kitco·Bloomberg 보도</text>
+    <text x="40" y="703">주: 차트 금리는 명목 10년물 연평균임. 기관 전망은 보도 기준이며 골드만삭스는 연준 인상 시 2026년 말 4,440달러 제시. 2021~2023년 금 가격은 LBMA 기반 반올림값</text>
+  </g>
+</svg>
